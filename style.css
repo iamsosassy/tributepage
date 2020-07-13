@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: powderblue;
+    letter-spacing: 0.20em
+}
+
+ul {
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0px 3px;
+    font-weight: bolder;
+    background-color: palegoldenrod;
+}
+
+p.words {
+    text-align: center;
+    height: 1300px;
+    width: 90%;
+    font-weight: 600;
+    background-color: palegoldenrod;
+    background-position: center;
+    margin: 25px 50px 75px;
+}
+
+p.header {
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+a {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;
+}
+
+a:hover, a.on {
+    color: black;
+    background-color: ffffff;
+}
+
+.carousel-inner {
+    width: 100%;
+    max-height: 200px !important;
+    text-align: center !important;
+}
+
+.carousel-item {
+    width: 100%;
+    max-height: 200px !important;
+    text-align: center !important;
+}
+
+/* navigation {
+    font-size: 25em;
+    background-color: palegoldenrod;
+} */
+
+/* .card-columns {
+    @include media-breakpoint-only(lg) {
+        column-count: 4;
+    }
+    \ @include media-breakpoint-only(xl) {
+        column-count: 5;
+    }
+} */
+
+video.wrapper {
+    height: auto !important;
+    height: 70%;
+    min-height: 50%;
+    margin: 0 auto 0 auto;
+}

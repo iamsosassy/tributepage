@@ -85,9 +85,7 @@ a:hover, a.on {
     clear: both;
 }
 
-video.wrapper {
-    height: auto !important;
-    height: 70%;
-    min-height: 50%;
-    margin: 0 auto 0 auto;
+*/ video {
+    width: 40.5%;
+    float: left;
 }

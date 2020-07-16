@@ -47,7 +47,7 @@ a {
     color: #000000;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 6px 18px 5px 18px;
+    padding: 3px 18px 5px 18px;
 }
 
 a:hover, a.on {
